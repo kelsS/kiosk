@@ -35,8 +35,10 @@ function BlockMove(event) {
 
 
 
-document.body.addEventListener('touchmove', function(e) {
-    event.preventDefault();
-});
+window.onload=function(){
+  document.body.addEventListener('touchmove', function(e) {
+      event.preventDefault();
+  });
+}
 
 
