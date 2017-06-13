@@ -35,7 +35,7 @@ function BlockMove(event) {
 
 
 
-document.body.addEventListener('touchmove', function(event) {
+document.body.addEventListener('touchmove', function(e) {
     event.preventDefault();
 });
 
